@@ -2,7 +2,7 @@
 
 ## Overview
 
-FL RPC is a lightweight Python script designed to display your current FL Studio project name as your Discord status. It leverages the `pypresence` library to interact with the Discord API, and uses `pygetwindow` and `psutil` to detect the FL Studio window. The script runs seamlessly in the background, updating your status every second.
+FL RPC is a lightweight Python script designed to display your current FL Studio project name as your Discord status. It uses the `pypresence` library to interact with the Discord API, and uses `pygetwindow` and `psutil` to detect the FL Studio window. The script runs seamlessly in the background and shows the state in the notification tray.
 
 ---
 
@@ -38,7 +38,7 @@ To use FL RPC as an executable, follow these steps:
     ```
 
 5. **Run the Executable:**
-   Start the executable file and open FL Studio.
+   Start the executable file inside the `/dist/` folder and open FL Studio.
 
 ### Running the Script Normally
 
