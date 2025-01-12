@@ -83,7 +83,3 @@ def update_rpc():
                     rpc.close()
                 except Exception:
                     pass
-
-
-if __name__ == "__main__":
-    update_rpc()

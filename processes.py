@@ -1,4 +1,5 @@
 import pygetwindow as gw
+import pywintypes
 import win32gui
 import psutil
 import time
