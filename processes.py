@@ -20,7 +20,7 @@ def get_fl_window() -> gw.Win32Window:
                     win for win in gw.getAllWindows() if win._hWnd == _fl_window_handle
                 )
         except StopIteration:
-            pass  # Handle no longer valid or not found
+            pass
 
     windows = gw.getWindowsWithTitle("FL Studio")
     if windows:

@@ -6,18 +6,6 @@ FL RPC is a lightweight Python script designed to display your current FL Studio
 
 ---
 
-## Getting Started
-
-### Running the Script
-
-To run the script directly, use the following command:
-
-```bash
-python rpc.py
-```
-
----
-
 ## Usage
 
 ### Compiling an Executable
